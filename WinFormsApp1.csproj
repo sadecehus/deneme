@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Desktop\mysql-connector-net-8.3.0-noinstall\net8.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>..\..\..\Desktop\mysql-connector-net-8.3.0-noinstall\net8.0\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdSharp">
+      <HintPath>..\..\..\Desktop\mysql-connector-net-8.3.0-noinstall\net8.0\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
